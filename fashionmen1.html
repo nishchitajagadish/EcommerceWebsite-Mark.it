@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Ecommerce Product Website - Easy Tutorials</title><head>
+
+    <title>MARK IT</title>
+    <link href="menfashion1.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="hero">
+        <div class="row">
+            <div class="col">
+
+                <div class="slider">
+                    <div class="product">
+
+                        <img src="https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVuJTIwZmFzaGlvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" onclick="clickme(this)">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/71JXPxpq2jS._UL1500_.jpg" alt="" onclick="clickme(this)">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/81cUKVcSFeS._UL1500_.jpg" alt="" onclick="clickme(this)">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/718ONIHNDQS._UL1500_.jpg" alt="" onclick="clickme(this)">
+
+                    </div>
+                    <div class="preview">
+                        <img src="https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVuJTIwZmFzaGlvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" id="imagebox" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+
+                <div class="content">
+                    <p class="brand">Brand: WoWStyle</p>
+                    <h2>WoWStyle Men's Synthetic Leather Lace-Ups Comfortable Formal Shoes</h2>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p class="price">Rs.1500</p>
+                    <p>Size: <select name="size">
+
+                            <option value="select size">select size</option>
+                            <option value="small">small</option>
+                            <option value="medium">medium</option>
+                            <option value="large">large</option>
+
+                        </select></p>
+                    <p>Quantity: <input type="text" value="1"></p>
+                    <button type="button">
+                        <i class="fa fa-shopping-cart"></i>
+                        Buy Now</button>
+                </div>
+
+            </div>
+        </div>
+
+    <script>
+        function clickme(smallImg) {
+
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src = smallImg.src;
+
+        }
+
+    </script>
+
+
+
+
+
+
+</body>

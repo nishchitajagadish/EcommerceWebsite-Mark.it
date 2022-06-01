@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Philips</title><head>
+
+    <title>MARK IT</title>
+    <link href="menfashion1.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="hero">
+        <div class="row">
+            <div class="col">
+
+                <div class="slider">
+                    <div class="product">
+
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/51Iag-JjzrL._SL1012_.jpg" alt="" onclick="clickme(this)">
+                        
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WNA9xHTotFI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                    </div>
+                    <div class="preview">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/51Iag-JjzrL._SL1012_.jpg" id="imagebox" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+
+                <div class="content">
+                    <p class="brand">Brand: Philips</p>
+                    <h2>Philips MMS-2550F/94 2.1 Channel Multimedia Speakers System (Black)</h2>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p class="price">Brand: Nikon</p>
+                    <p class="text-center my-1">₹20,000</p>
+                    
+                    <p>Quantity: <input type="text" value="1"></p>
+                    <button type="button">
+                        <i class="fa fa-shopping-cart"></i>
+                        Buy Now</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        function clickme(smallImg) {
+
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src = smallImg.src;
+
+        }
+
+    </script>
+</body>

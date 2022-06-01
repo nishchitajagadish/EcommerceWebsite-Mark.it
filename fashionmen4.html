@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Ecommerce Product Website - Easy Tutorials</title><head>
+
+    <title>MARK IT</title>
+    <link href="menfashion1.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="hero">
+        <div class="row">
+            <div class="col">
+
+                <div class="slider">
+                    <div class="product">
+
+                        <img src="https://images.unsplash.com/photo-1537261131936-3cdff36a1ac9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1lbiUyMGZhc2hpb258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" onclick="clickme(this)">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/51mu1ANvsaL._UL1079_.jpg" alt="" onclick="clickme(this)">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/61xid6WLtCL._UL1184_.jpg" alt="" onclick="clickme(this)">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/61J-bV65LRL._UL1081_.jpg" alt="" onclick="clickme(this)">
+
+                    </div>
+                    <div class="preview">
+                        <img src="https://images.unsplash.com/photo-1537261131936-3cdff36a1ac9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG1lbiUyMGZhc2hpb258ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" id="imagebox" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+
+                <div class="content">
+                    <p class="brand">Brand: Generic</p>
+                    <h2>neon Orange Stylish Running Shoe Flexible Sports Shoe Size 8 Number</h2>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p class="price">Rs.4500</p>
+                    <p>Size: <select name="size">
+
+                            <option value="select size">select size</option>
+                            <option value="small">small</option>
+                            <option value="medium">medium</option>
+                            <option value="large">large</option>
+
+                        </select></p>
+                    <p>Quantity: <input type="text" value="1"></p>
+                    <a href="addcart.html"><button type="button">
+                        <i class="fa fa-shopping-cart"></i>
+                        Buy Now</button></a>
+                </div>
+
+            </div>
+        </div>
+
+    <script>
+        function clickme(smallImg) {
+
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src = smallImg.src;
+
+        }
+
+    </script>
+
+
+
+
+
+
+</body>

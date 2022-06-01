@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add to Cart</title>
+    <link rel="stylesheet" type="text/css" />
+  </head>
+  <!-- <?php
+  if(isset($_POST['submit'])){
+    include 'conn.php';
+  }
+  ?>  -->
+
+  <body bgcolor="PaleTurquoise ">  
+    <h1>Add to Cart</h1>
+  <br>  
+  <br>  
+  <form action="conn.php" method="post"> 
+
+    
+  <label for="Firstname"> Firstname : </label>         
+  <input type="text" id="firstname" name="firstname" size="46"/> <br> <br>  
+  
+  <label for="Email"> Email : </label>         
+  <input type="text" id="Email" name="Email" size="50"/> <br> <br> <br> 
+    
+  <label for="Fashion">   
+  Fashion :  
+  </label>   
+  <select class="custom-select" id="Fashion" name="Fashion">  
+    <option selected>Choose...</option> 
+  <option value="None">None</option> 
+  <option value="Kurta(Blue)">Kurta(Blue)</option>  
+  <option value="Sports Shoes">Sports Shoes</option>  
+  <option value="Flared Jeans(Black)">Flared Jeans(Black)</option>  
+  <option value="Beige Set">Beige Set</option>  
+  <option value="Suit(Black)">Suit(Black)</option>  
+  <option value="Blazor(Brown)">Blazor(Brown)</option>
+  <option value="Neon Orange Shoes">Neon Orange Shoes</option>  
+  </select>  
+  <br><br><br>  
+
+  <label for="Electronics">   
+  Electronics :  
+  </label>   
+  <select class="custom-select" id="Electronics" name="Electronics">  
+    <option selected>Choose...</option>  
+  <option value="None">None</option>  
+  <option value="Apple MacBook">Apple MacBook</option>  
+  <option value="One Plus Nord 5G">One Plus Nord 5G</option>  
+  <option value="Nikon">Nikon</option>  
+  <option value="Samsung Galaxy Watch">Samsung Galaxy Watch </option>  
+  <option value="Philips Speakers System">Philips Speakers System</option>  
+  </select>  
+    <br><br><br>
+  
+    <label for="Entertainment">   
+      Entertainment :  
+      </label>   
+      <select class="custom-select" id="Entertainment" name="Entertainment">  
+        <option selected>Choose...</option>   
+      <option value="None">None</option>  
+      <option value="Malang">Malang</option>  
+      <option value="Thappad">Thappad</option>  
+      <option value="Mulan">Mulan</option>  
+      <option value="Her">Her</option>  
+      <option value="Thor">Thor</option>  
+      </select>  
+        <br><br><br>
+
+        <label for="Sports">   
+          Sports :  
+          </label>   
+          <select class="custom-select" id="Sports" name="Sports">  
+            <option selected>Choose...</option>    
+          <option value="None">None</option>  
+          <option value="Football">Football</option>  
+          <option value="Cricket">Cricket</option>  
+          <option value="Yonex GR 303">Yonex GR 303</option>  
+          <option value="Nivia Caribbean Cricket Shoes">Nivia Caribbean Cricket Shoes</option>  
+          <option value="Scooter">Scooter</option>  
+          </select>  
+            <br><br><br>
+
+  <label for="Details">   
+  Address :  
+  </label>
+  <br>  
+  <textarea cols="53" rows="5" name="Details" value="details">  
+  </textarea>  
+  <br> <br>  
+   
+  <input type="submit" class="btn btn-primary" />
+</form>  
+  </body>  
+  </html>

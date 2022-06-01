@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <title>Ecommerce Product Website - Easy Tutorials</title><head>
+
+    <title>MARK IT</title>
+    <link href="menfashion1.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="hero">
+        <div class="row">
+            <div class="col">
+
+                <div class="slider">
+                    <div class="product">
+
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/51GhdmV3WOL._UL1000_.jpg" alt="" onclick="clickme(this)">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/51X91ABxzDL._UL1000_.jpg" alt="" onclick="clickme(this)">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/6106ZK6YCNL._UL1000_.jpg" alt="" onclick="clickme(this)">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/51AqOZQZ3bL._UL1000_.jpg" alt="" onclick="clickme(this)">
+
+                    </div>
+                    <div class="preview">
+                        <img src="https://images-na.ssl-images-amazon.com/images/I/51X91ABxzDL._UL1000_.jpg" id="imagebox" alt="">
+                    </div>
+                </div>
+
+            </div>
+            <div class="col">
+
+                <div class="content">
+                    <p class="brand">Brand: ANJ</p>
+                    <h2>ANJ - for Women Raw Silk Denim Blue Ayra Crop Top & Georgette Palazzo Set</h2>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p class="price">Rs.1200</p>
+                    <p>Size: <select name="size">
+
+                            <option value="select size">select size</option>
+                            <option value="small">small</option>
+                            <option value="medium">medium</option>
+                            <option value="large">large</option>
+
+                        </select></p>
+                    <p>Quantity: <input type="text" value="1"></p>
+                    <button type="button">
+                        <i class="fa fa-shopping-cart"></i>
+                        Buy Now</button>
+                </div>
+
+            </div>
+        </div>
+
+    <script>
+        function clickme(smallImg) {
+
+            var fullImg = document.getElementById("imagebox");
+            fullImg.src = smallImg.src;
+
+        }
+
+    </script>
+
+
+
+
+
+
+</body>
